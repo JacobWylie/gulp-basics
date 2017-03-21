@@ -1,0 +1,24 @@
+{
+  "name": "gulp-basics",
+  "version": "1.0.0",
+  "description": "gulp-basics course teamtreehouse.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobWylie/gulp-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobWylie/gulp-basics/issues"
+  },
+  "homepage": "https://github.com/JacobWylie/gulp-basics#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
