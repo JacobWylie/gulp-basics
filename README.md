@@ -1,4 +1,5 @@
-<h1><img src="https://github.com/gulpjs/artwork/blob/master/gulp.png?raw=true" alt="gulp logo">Gulp Stuff</h1>
+<img src="https://github.com/gulpjs/artwork/blob/master/gulp.png?raw=true" alt="gulp logo">
+<h1>Gulp Stuff</h1>
 
 <h4><a href="https://github.com/contra/gulp-concat">gulp-concat:</a> $npm install gulp-concat --save-dev</h4>
 <h4><a href="https://github.com/hparra/gulp-rename">gulp-rename:</a> $npm install gulp-rename --save-dev</h4>
