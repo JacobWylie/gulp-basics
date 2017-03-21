@@ -10,9 +10,12 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;concat = require('gulp-concat'),</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;rename = require('gulp-rename'),</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;uglify = require('gulp-uglify');</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;maps = require('gulp-sourcemaps'),</p>
 <br>
 <p>gulp.task('scripts', () => {  </p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;gulp.src([ 'jsFiles' ])</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(maps.init())</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(maps.write('./'))</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(concat('app.js'))</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(gulp.dest(jsDest))</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(rename('scripts.min.js'))</p>
@@ -30,7 +33,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;maps = require('gulp-sourcemaps'),</p>
 <br>
 <p>gulp.task('compileSass', () => {  </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;gulp.src([ 'jsFiles' ])</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;gulp.src([ 'scssFiles' ])</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(maps.init())</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(sass())</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(maps.write('./'))</p>
