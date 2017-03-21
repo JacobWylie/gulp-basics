@@ -21,9 +21,9 @@
 <p>});</p>
 <br><br>
 
-:telescope:<h4><a href="https://github.com/dlmanning/gulp-sass">Gulp Sass plugin: </a>$npm install gulp-sass --save-dev</h4>
-:telescope:<h4>Article: <a href="http://thesassway.com/intermediate/using-source-maps-with-sass">Using source maps with Sass 3.3</a></h4>
-:telescope:<h4>Article: <a href="https://github.com/floridoo/gulp-sourcemaps">gulp-sourcemaps</a></h4>
+<h4>:telescope:<a href="https://github.com/dlmanning/gulp-sass">Gulp Sass plugin: </a>$npm install gulp-sass --save-dev</h4>
+<h4>:telescope:<a href="http://thesassway.com/intermediate/using-source-maps-with-sass">Using source maps with Sass 3.3</a></h4>
+<h4>:telescope:<a href="https://github.com/floridoo/gulp-sourcemaps">gulp-sourcemaps</a></h4>
 
 
 
