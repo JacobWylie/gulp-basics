@@ -4,12 +4,12 @@ Code for my Treehouse Gulp.js course
 <h4><a href="https://github.com/contra/gulp-concat">gulp-concat:</a> $npm install gulp-concat --save-dev</h4>
 <h4><a href="https://github.com/contra/gulp-concat">gulp-rename:</a> $npm install gulp-rename --save-dev</h4>
 <h4><a href="https://github.com/contra/gulp-concat">gulp-uglify:</a> $npm install gulp-uglify --save-dev</h4>
-<br><br>
+<br>
 <p>const gulp = require('gulp'),</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;concat = require('gulp-concat'),</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;rename = require('gulp-rename'),</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;uglify = require('gulp-uglify');</p>
-<br><br>
+<br>
 <p>gulp.task('scripts', function() {  </p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;return gulp.src(jsFiles)</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.pipe(concat('scripts.js'))</p>
